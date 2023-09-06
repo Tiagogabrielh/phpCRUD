@@ -1,0 +1,203 @@
+.corpo__texto{
+    background-color: #1d1919;
+    margin: 5vw 0vw;
+}
+
+.cabecalho{
+    display: flex;
+    justify-content: center;
+}
+
+.rodape{
+    display: flex;
+    justify-content: center;
+}
+
+.imagem__logo{
+    width:25vw;
+    
+}
+
+.texto__bem-vindo{
+    font-size:6vw;
+    font-weight: 900;
+    text-align:center;
+    color:antiquewhite;
+    margin:3vw;
+}
+
+.secao__body{
+    width:90vw;
+   
+   
+}
+
+.div__secao{
+    width:80vw;
+    margin:8vw 8vw;
+    border: solid;
+    border-color: antiquewhite; 
+    border-radius: 10px;
+}
+
+.img__div{
+    width:70vw;
+    margin:5vw 5vw;
+    
+}
+
+.div__texto{
+    display:flex;
+    flex-direction: column;
+    text-align:center;
+    
+}
+
+.p__div{
+    font-size: 6vw;
+    color:antiquewhite;
+    text-align:center;
+    margin:2vw;
+}
+
+.botao__adicionar{
+    
+    height:20vw;
+    width:80vw;
+    font-size: 6vw;
+    font-weight:900;
+    margin:5vw 10vw;
+    border-radius: 6vw;
+    
+}
+
+.div__inputs{
+    text-align:center;
+}
+
+.botao__input{
+    width:50vw;
+    height:10vw;
+    font-size: 6vw;
+    font-weight: 600;
+    margin:2vw;
+    border-radius: 5vw;    
+    
+}
+
+.link{
+    text-decoration: none;
+    color:black;
+}
+
+
+@media screen and (min-width: 1024px){
+
+   
+    .cabecalho{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .rodape{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .imagem__logo{
+        width:10vw;
+        
+    }
+    
+    .texto__bem-vindo{
+        font-size:2vw;
+        font-weight: 900;
+        text-align:center;
+        color: antiquewhite;
+        margin:3vw;
+    }
+    
+    .secao__body{
+        width:90vw;
+        margin: 0vw 5vw;
+        display:grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        gap:2vw;
+       
+    }
+    
+    .div__secao{
+        width:15vw;
+
+        margin:0 auto;
+        border: solid;
+        border-color: antiquewhite; 
+        border-radius: 10px;
+        
+    }
+    
+    .div__img{
+        display: flex;
+        justify-content: center;
+    }
+
+    .img__div{
+        width:10vw;
+        height:10vw;
+        margin:1vw;
+        
+        
+    }
+    
+    .div__texto{
+        display:flex;
+        text-align:center;
+        
+    }
+    
+    .p__div{
+        font-size: 1vw;
+        color:antiquewhite;
+        text-align:center;
+        margin:0.5vw 0vw;
+    }
+    
+    .botao__adicionar{
+        
+        height:3vw;
+        width:15vw;
+        font-size: 1vw;
+        font-weight:900;
+        margin:0vw auto;
+        border-radius: 1vw;
+        
+    }
+    
+    .div__inputs{
+        text-align:center;
+        display:grid;
+        grid-template-columns: 1fr 1fr;;
+    }
+    
+    .botao__input{
+        width:5vw;
+        height:2vw;
+        font-size: 1vw;
+        font-weight: 600;
+        margin:0.5vw;
+        border-radius: 0.5vw;    
+        
+    }
+    
+    .link{
+        text-decoration: none;
+        color:black;
+    }
+
+    .formulario{
+        width:60vw;
+        margin:5vw 20vw;
+        display: flex;
+        justify-content: center;
+    }
+}

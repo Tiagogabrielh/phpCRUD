@@ -1,0 +1,192 @@
+.corpo__texto{
+    background-color: #1d1919;
+    margin: 5vw 0vw;
+}
+
+.cabecalho{
+    display: flex;
+    justify-content: center;
+}
+
+.rodape{
+    display: flex;
+    justify-content: center;
+}
+
+
+.imagem__logo{
+    width:15vw;
+}
+
+.texto__bem-vindo{
+    font-size:2vw;
+    font-weight: 600;
+    text-align:center;
+    color:antiquewhite;
+    margin:5vw;
+}
+
+
+.botao{
+    height:3vw;;
+    width:10vw;
+    font-size: 1vw;
+    font-weight:600;
+    margin:1vw;
+    
+}
+
+.botao__tabela{
+    background-color: #5e6147;
+    font-size:1vw;
+    width:5vw;
+    color:black;
+    text-decoration: none;
+    
+}
+
+.link{
+    text-decoration: none;
+    color:black;
+}
+
+
+
+.tabela__secao{
+    background-color: #5e6147;
+    border: solid;
+    border-color: antiquewhite; 
+    font-size: 1vw;
+    width:80vw;
+    margin:3vw 10vw;
+    
+}
+
+
+
+th, td{
+    border: 1px solid #6d554e;
+    /* white-space: nowrap; */
+}
+
+th{
+    color: black;
+    font-weight: bold;
+    padding: 1vw;
+    text-decoration: none;
+}
+
+td{
+    color: antiquewhite;
+    padding: 1vw;
+    text-decoration: none;
+}
+
+.formulario{
+    width:80vw;
+    margin: 3vw 10vw;
+    display:flex;
+    justify-content: space-around;
+}
+    
+
+
+
+@media screen and (max-width: 768px){
+
+    
+    .cabecalho{
+        display: flex;
+        justify-content: center;
+    }
+
+    .rodape{
+        display: flex;
+        justify-content: center;
+    }
+
+
+    .imagem__logo{
+        width:20vw;
+    }
+
+    .texto__bem-vindo{
+        font-size:6vw;
+        font-weight: 600;
+        text-align:center;
+        color:antiquewhite;
+        margin:5vw;
+    }
+
+    .botao__tabela{
+        background-color: #5e6147;
+        font-size:6vw;
+        width:30vw;
+        text-decoration: none;
+    }
+
+    .link{
+        text-decoration: none;
+        color:black;
+    }
+
+    .div__tabela{
+        width: 80%;
+        margin:3vw 10vw;
+        overflow: scroll;
+    }
+
+    .tabela__secao{
+        background-color: #5e6147;
+        border: solid;
+        border-color: antiquewhite; 
+        font-size: 6vw;
+        margin:0;   
+    }
+
+    table, td, a{
+        text-decoration: none;
+        color:black
+    }
+
+    th, td{
+        border: 1px solid #6d554e;
+        border-radius: 5px;
+        white-space: nowrap; 
+        
+    }
+
+    th{
+        color: black;
+        font-weight: bold;
+        padding: 1vw;
+        text-decoration: none;
+        
+    }
+
+    td{
+        color: antiquewhite;
+        padding: 1vw;
+        text-decoration: none;
+         
+    }
+
+    .formulario{
+        width:80vw;
+        margin: 3vw 10vw;
+        display:flex;
+        flex-direction: column;
+        
+    }
+
+    .botao{
+        height:15vw;
+        width:80vw;
+        font-size: 6vw;
+        font-weight:600;
+        margin: 3vw 0;
+        border-radius: 5vw;
+    }
+
+}
+
